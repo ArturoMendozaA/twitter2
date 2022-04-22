@@ -1,0 +1,19 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Excercise number 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturoMendozaA/twitter2.git"
+  },
+  "author": "ArturoMendozaA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturoMendozaA/twitter2/issues"
+  },
+  "homepage": "https://github.com/ArturoMendozaA/twitter2#readme"
+}
