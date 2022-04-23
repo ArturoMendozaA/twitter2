@@ -10,17 +10,20 @@ class User{
     showInfo(){
         return "El id es: "+ this.id +" de "+ this.username
     }
-    getUsername(){
+    get getUsername(){
         return this.username
-    }
-    getBio(){
+    }    
+    get getBio(){
         return this.bio
     }
-    getDateCreated(){
+    get getDateCreated(){
         return this.dateCreated
     }
-    getLastUpdated(){
+    get getLastUpdated(){
         return this.dateCreated
+    }
+    set setUsername(newUsername){
+        this.username = newUsername
     }
 }
 module.exports = User
