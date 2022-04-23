@@ -16,17 +16,17 @@ describe('Unit test for User', ()=>{
 
     })
     test('2) Requeromiento 2: fechas en atributos de User',()=>{
-        const user = new User(1, "carlogilmar", "Carlo", "Bio", "dateCreated", "lastUpdated")
+        const user = new User(1, "carlogilmar", "Carlo", "Bio")
         expect(user.dateCreated).not.toBeUndefined()
         expect(user.lastUpdated).not.toBeUndefined()
 
     })
     test("3) Add getters", ()=>{
-        const user = new User(1, "carlogilmar", "Carlo", "Bio")
-        expect(user.getUsername).toBe("carlogilmar")
-        expect(user.getBio).toBe("Bio")
-        epect(user.getDateCreated).not.toBeUndefined()
-        expect(user.getLastUpdated).not.toBeUndefined()
+        const user3 = new User(1, "carlogilmar", "Carlo", "Bio")
+        expect(user3.getUsername).toBe("carlogilmar")
+        expect(user3.getBio).toBe("Bio")
+        expect(user3.getDateCreated).not.toBeUndefined()
+        expect(user3.getLastUpdated).not.toBeUndefined()
     })
     test("test Prueba2 agragando una funcion", ()=>{
         const user2 = new User(2, "tamalito", "Joaquin", "a Bio" )
