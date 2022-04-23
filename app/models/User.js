@@ -7,5 +7,8 @@ class User{
         this.dateCreated = new Date()
         this.lastUpdated = new Date()
     }
+    showInfo(){
+        return "El id es: "+ this.id +" de "+ this.username
+    }
 }
 module.exports = User

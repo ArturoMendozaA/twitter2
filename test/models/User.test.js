@@ -21,4 +21,15 @@ describe('Unit test for User', ()=>{
         expect(user.lastUpdated).not.toBeUndefined()
 
     })
+
+    test("test Prueba2 agragando una funcion", ()=>{
+        const user2 = new User(2, "tamalito", "Joaquin", "a Bio" )
+        expect(user2.id).toBe(2)
+        expect(user2.username).toBe("tamalito")
+        expect(user2.bio).toBe("a Bio")
+        expect(user2.dateCreated).not.toBeUndefined
+        expect(user2.lastUpdated).not.toBeUndefined
+        expect(user2.showInfo()).toBe("El id es: 2 de tamalito")
+        
+    })
 })
