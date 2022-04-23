@@ -10,5 +10,8 @@ class User{
     showInfo(){
         return "El id es: "+ this.id +" de "+ this.username
     }
+    getUsername(){
+        return this.username = username
+    }
 }
 module.exports = User
