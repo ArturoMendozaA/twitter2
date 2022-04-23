@@ -11,7 +11,16 @@ class User{
         return "El id es: "+ this.id +" de "+ this.username
     }
     getUsername(){
-        return this.username = username
+        return this.username
+    }
+    getBio(){
+        return this.bio
+    }
+    getDateCreated(){
+        return this.dateCreated
+    }
+    getLastUpdated(){
+        return this.dateCreated
     }
 }
 module.exports = User
