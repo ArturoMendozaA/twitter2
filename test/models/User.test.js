@@ -10,7 +10,7 @@ describe('Unit test for User', ()=>{
         expect(user.id).toBe(1)
         expect(user.username).toBe("carlogilmar")
         expect(user.name).toBe("Carlo")
-        expect(user.bio).toBe("bio")
+        expect(user.bio).toBe("Bio")
         expect(user.dateCreated).toBe("dateCreated")
         expect(user.lastUpdated).toBe("lastUpdated")
 
