@@ -14,11 +14,6 @@ class UserService{
     }
     static getAllUsernames([user1, user2, user3]){
         return [user1.username, user2.username, user3.username]
-        
-        // [user1 = UserService.username,
-        // user2 = UserService.username,
-        // user3 = UserService.username
-        // ]
     }
 }
 module.exports = UserService
