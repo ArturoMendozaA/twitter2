@@ -18,7 +18,7 @@ class UserView{
         else{
              
               
-                return UserService.create(payload.name)
+                return UserService.create(payload.id, payload.username, payload.name)
                 //UserService.create(1, "username", "name")
             
                 //(id: 1, username: "username", name: "name")
